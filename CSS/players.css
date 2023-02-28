@@ -1,0 +1,139 @@
+body{
+  background-image: url(fcbar/pl.jpg);
+  margin:0;
+  padding: 0;
+}
+
+
+
+
+
+.menu{
+  position: sticky;
+  top: 0;
+margin-bottom: 150px;
+  box-shadow: -1px 10px 1px rgba(100, 100, 100, 0.3);
+  width: 100%;
+background:linear-gradient(to right,red,blue);
+  color: #fff;
+   height: 60px;
+}
+.menu #logo{
+float:left;
+height: 30px;
+padding:15px 30px;
+line-height: 20px;
+font-size: 30px;
+margin-left: 20px;
+}
+.menu #logo .fc{
+  margin: 0;
+      position: absolute;
+      left: 5px;
+      width: 40px;
+      height: 40px;
+      display: block;
+      margin-left: 5px;
+      bottom: 610px;
+}
+ul{
+  display:flex;
+  margin: 0;
+  padding: 0;
+  float :right;
+  list-style-type:none;
+
+}
+ ul li{
+  float:right;
+    padding: 10px;
+
+}
+ul li a{
+display:flex;
+padding:10px;
+margin-left: 0;
+width: 100px;
+height: 30px;
+line-height: 40px;
+color:#fff;
+text-decoration: none;
+border-radius: 10px;
+text-align: center;
+font-family: century Gothic;
+font-weight:bold;
+
+
+}
+
+
+a:hover{
+  background-color: yellow;
+  color: black;
+  border-radius: 10px;
+
+}
+
+ul  ul{
+  border-radius: 10px;
+display: none;
+background-color:  #072474;
+
+}
+
+ul :hover > ul{
+  display:grid;
+
+}
+
+
+
+
+
+.photoes{
+
+  position: absolute;
+  left:66%;
+
+  }
+  .p{
+    margin: 20px;
+  width: 200px;
+height: 200px;
+display:block;
+
+}
+.pn{
+  position: absolute;
+  left:40%;
+
+
+}
+.n{
+
+
+  background-color: yellow;
+  /* margin: 2px; */
+width: 200px;
+height: 200px;
+display:block;
+padding-left:10px;
+
+}
+ .ba{
+   color: yellow;
+   text-decoration: none;
+
+ }
+.c{
+
+  width: auto;
+  height: auto;
+}
+.a{
+
+
+}
+.b{
+  top: 40px;
+}

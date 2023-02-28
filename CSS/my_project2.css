@@ -1,0 +1,108 @@
+body{
+  padding: 0;
+  margin: 0;
+    background-image: url(fcb.png);
+    background-repeat: no-repeat;
+    background-size:1000px 500px;
+    background-position:top center;
+
+}
+
+form{
+
+  position: absolute;
+  top: 15%;
+  left:37%;
+  transform: translate(-50%.-50%);
+  width: 350px;
+  height: 420px;
+  background: rgba(0, 0, 0, 0.8);
+border-radius: 15px;
+box-sizing: border-box;
+
+}
+
+h3{
+  color: #fff;
+  text-align: center;
+  left: 110px;
+}
+
+input[type="text1"],[type="text2"],[type="text3"],[type="password"]{
+position: absolute;
+display: block;
+outline: none;
+border:none;
+width: 250px;
+height: 35px;
+border-bottom: 2px solid #0094ff;
+background: none;
+padding:5px;
+color: #fff;
+}
+
+input[value="text1"]{
+  top: 210px;
+  left: 70px;
+}
+input[value="text2"]{
+  top: 210px;
+  left: 50px;
+}
+input[value="text3"]{
+  top:210px;
+  left: 50px;
+}
+/* input[type="text4"]{
+  top: 210px;
+  left: 50px;
+} */
+
+
+input[type="password"]{
+  top: 200px;
+  left: 23px;
+}
+form .a{
+left: 80%;
+  display: block;
+padding:20px;
+}
+
+.btn{
+  position: absolute;
+  top: 305px;
+  left: 110px;
+  width: 130px;
+  height: 35px;
+  background: #0077ff;
+  outline: none;
+  border:none;
+  color: #fff;
+  border-radius:  15px;
+  font-size: 20px;
+}
+.btn:hover{
+  background: #fff;
+  color:#0077ff;
+}
+
+.pa{
+  position: absolute;
+  top: 340px;
+  left:120px;
+  color: #fff;
+  cursor: pointer;
+}
+.pa:hover{
+  color:#0077ff;
+
+}
+
+
+p{
+color: blue;
+  position: fixed;
+  bottom: 0px;
+  left:42%;
+}

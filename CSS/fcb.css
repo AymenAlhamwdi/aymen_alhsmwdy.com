@@ -1,0 +1,244 @@
+*,body,html{
+  margin:0;
+  padding: 0;
+
+}
+body{
+    background-color: #1e092a;
+}
+.menu{
+  position: sticky;
+  top: 0;
+margin-bottom: 150px;
+  box-shadow: -1px 10px 1px rgba(100, 100, 100, 0.3);
+  width: 100%;
+background:linear-gradient(to right,red,blue);
+  color: #fff;
+   height: 60px;
+}
+.menu #logo{
+float:left;
+height: 30px;
+padding:15px 30px;
+line-height: 20px;
+font-size: 30px;
+margin-left: 20px;
+}
+.menu #logo .fc{
+  margin: 0;
+      position: absolute;
+      left: 5px;
+      width: 40px;
+      height: 40px;
+      display: block;
+      margin-left: 5px;
+      bottom: 610px;
+}
+ul{
+  display:flex;
+  margin: 0;
+  padding: 0;
+  float :right;
+  list-style-type:none;
+
+}
+ ul li{
+  float:right;
+    padding: 10px;
+
+}
+ul li a{
+display:flex;
+padding:10px;
+margin-left: 0;
+width: 100px;
+height: 30px;
+line-height: 40px;
+color:#fff;
+text-decoration: none;
+border-radius: 10px;
+text-align: center;
+font-family: century Gothic;
+font-weight:bold;
+
+
+}
+
+
+a:hover{
+  background-color: yellow;
+  color: black;
+  border-radius: 10px;
+
+}
+
+ul  ul{
+  border-radius: 10px;
+display: none;
+background-color:  #072474;
+
+}
+
+ul :hover > ul{
+  display:grid;
+
+}
+
+
+
+/*-------------------------------------------------------------------------- */
+.container{
+  perspective: 2;
+position: relative;
+   width: 75%;
+    flex-wrap: wrap;
+    justify-content:center;
+padding-bottom: 20px;
+color: white;
+}
+.team{
+    position:relative;
+    left: 15%;
+    height: 450px;
+    box-shadow: 0 3px 15px rgb(33 ,44 ,55 ,0.7);
+}
+
+.team .imgbox img{
+
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      transition: 0.5s;
+}
+
+.team .content{
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+height:100px;
+padding: 12px;
+background-color: blue;
+transition: all 0.5s cubic-bezier(.48,-0.28,0.41,1.4);
+box-sizing: border-box;
+overflow: hidden;
+}
+
+.team :hover .content{
+  width: 100%;
+  height: 75%;
+  left: 0;
+  bottom: 0;
+
+}
+
+.content p{
+  margin: 10px 0 0;
+  padding: 1em 1em;
+  transform: translateY(-1em);
+  line-height: 1.3em;
+  transition: 0.3s;
+  text-align: justify;
+  opacity: 1;
+}
+.team :hover .content p{
+  transform: translateY(-1);
+  opacity: 2;
+
+}
+.content h2{
+  text-align: center;
+}
+.team:hover{
+  box-shadow: 0 0 5em rgba(0,0,0,0.4);
+}
+
+
+
+.con{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.card{
+  background: white;
+  width: 330px;
+  border-radius: 15px;
+  margin: 10px;
+  /* height:400px; */
+}
+
+.card-image{
+  height: 200px;
+  margin-bottom: 15px;
+  background-size:cover;
+  border-radius: 15px 15px 0 0;
+
+}
+
+
+.c1{
+  background-image: url('../fcbar/xavi.jpg');
+}
+
+.c2{
+  background-image: url('../fcbar/4.jpeg');
+}
+
+.c3{
+  background-image: url('../fcbar/2.jpg');
+
+}
+.c4{
+  background-image: url('../fcbar/shirt.webp');
+  background-size:contain;
+  background-repeat: no-repeat;
+    background-position:top center;
+
+}
+.c5{
+  background-image: url('../fcbar/rm.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+    background-position:top center;
+
+}
+.c6{
+  background-image: url('../fcbar/1.jpg');
+}
+.c7{
+  background-image: url('../fcbar/1.jpg');
+}
+.c8{
+  background-image: url('../fcbar/brc.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+    background-position:top center;
+
+}
+
+.card h2{
+  padding:10px;
+}
+.card p{
+  padding:10px;
+}
+.card a{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+display: block;
+text-align: center;
+margin: 20px 70px;
+
+}
+.card:hover{
+  background-color: rgb(62, 62, 62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
